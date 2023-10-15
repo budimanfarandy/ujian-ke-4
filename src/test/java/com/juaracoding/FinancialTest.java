@@ -23,8 +23,8 @@ public class FinancialTest {
         desiredCapabilities.setCapability("deviceName", "Pixel 2 API 30");
         desiredCapabilities.setCapability("udid", "emulator-5554");
         desiredCapabilities.setCapability("platformName", "Android");
-        desiredCapabilities.setCapability("appPackage", "com.google.android.calculator");
-        desiredCapabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
+        desiredCapabilities.setCapability("appPackage", "com.chad.financialrecord");
+        desiredCapabilities.setCapability("appActivity", "com.rookie.catatankeuangan.feature.splash.SplashActivity");
         desiredCapabilities.setCapability("noReset", true);
 
         // URL
